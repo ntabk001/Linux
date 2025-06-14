@@ -10,21 +10,21 @@ I am assuming you have inserted the CentOS 7 iso in the virtual drive of the VM 
 
 PROCEDURE
 
-<img src="/Note/img/cent1.png">
+<img src="/img/cent1.png">
 
-<img src="/Note/img/cent2.png">
+<img src="/img/cent2.png">
 
-<img src="/Note/img/cent3.png">
+<img src="/img/cent3.png">
 
-<img src="/Note/img/cent4.png">
+<img src="/img/cent4.png">
 
-<img src="/Note/img/cent5.png">
+<img src="/img/cent5.png">
 
-<img src="/Note/img/cent6.png">
+<img src="/img/cent6.png">
 
-<img src="/Note/img/cent7.png">
+<img src="/img/cent7.png">
 
-<img src="/Note/img/cent8.png">
+<img src="/img/cent8.png">
 
 ```
 /boot partition with ~500MB of space

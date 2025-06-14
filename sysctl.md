@@ -251,7 +251,7 @@ Close and save the file. To load in sysctl settings from the file specified or `
 
 Let us read values from file called `/etc/sysctl.d/1000-custom.conf`:
 
-`sudo sysctl -p /etc/sysctl.d/1000-custom.conf
+`sudo sysctl -p /etc/sysctl.d/1000-custom.conf`
 
 OR
 
