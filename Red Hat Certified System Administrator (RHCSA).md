@@ -15,7 +15,9 @@
 
   • usermod
 ```
+
 * Files
+
 ```
   • /etc/passwd
   
@@ -23,6 +25,7 @@
   
   • /etc/shadow
 ```
+
 Example:
 
 ```

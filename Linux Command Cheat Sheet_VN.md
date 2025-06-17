@@ -104,15 +104,15 @@
 </tr>
 <tr>
 <td><code>hdparm -i /dev/sda</code></td>
-<td>Hiển thị thông tin về đĩa sda</td>
+<td>Hiển thị thông tin về disk sda</td>
 </tr>
 <tr>
 <td><code>hdparm -tT /dev/sda</code></td>
-<td>Thực hiện kiểm tra tốc độ đọc trên đĩa sda</td>
+<td>Thực hiện kiểm tra tốc độ đọc trên disk sda</td>
 </tr>
 <tr>
 <td><code>badblocks -s /dev/sda</code></td>
-<td>Kiểm tra các khối không đọc được trên đĩa sda</td>
+<td>Kiểm tra các khối không đọc được trên disk sda</td>
 </tr>
 </tbody>
 </table>
@@ -484,7 +484,7 @@
 </tr>
 </tbody>
 </table>
-<h1 id="_cac-lenh-ve-archives-tar-files-8">CÁC LỆNH VỀ ARCHIVES (TAR FILES)</h1>
+<h1 id="_cac-lenh-ve-archives-tar-files-8">CÁC LỆNH VỀ ARCHIVES (tar FILES)</h1>
 <table>
 <thead>
 <tr>
@@ -495,23 +495,23 @@
 <tbody>
 <tr>
 <td><code>tar -cvf filename.tar filename</code></td>
-<td>Nén file thành Tar</td>
+<td>Nén file thành tar</td>
 </tr>
 <tr>
 <td><code>tar -xvf filename.tar</code></td>
-<td>Giải nén file Tar</td>
+<td>Giải nén file tar</td>
 </tr>
 <tr>
 <td><code>tar -tvf filename.tar</code></td>
-<td>Liệt kê nội dung của file Tar</td>
+<td>Liệt kê nội dung của file tar</td>
 </tr>
 <tr>
 <td><code>tar -xvf filename.tar file1.txt</code></td>
-<td>Gỡ bỏ một file duy nhất khỏi file Tar</td>
+<td>Giải nén một file trong file nén tar</td>
 </tr>
 <tr>
 <td><code>tar -rvf filename.tar file2.txt</code></td>
-<td>Thêm file vào Tar</td>
+<td>Thêm file vào tar</td>
 </tr>
 <tr>
 <td><code>zip filename.zip filename</code></td>
@@ -706,15 +706,15 @@
 </tr>
 <tr>
 <td><code>fdisk -l</code></td>
-<td>Hiển thị kích thước và loại phân vùng đĩa</td>
+<td>Hiển thị kích thước và loại phân vùng disk</td>
 </tr>
 <tr>
 <td><code>du -ah</code></td>
-<td>Hiển thị mức sử dụng đĩa cho tất cả các tệp và thư mục ở định dạng con người có thể đọc được</td>
+<td>Hiển thị mức sử dụng disk cho tất cả các tệp và thư mục ở định dạng con người có thể đọc được</td>
 </tr>
 <tr>
 <td><code>du -sh</code></td>
-<td>Hiển thị tổng mức sử dụng đĩa ngoài thư mục hiện tại</td>
+<td>Hiển thị tổng mức sử dụng disk ngoài thư mục hiện tại</td>
 </tr>
 </tbody>
 </table>
