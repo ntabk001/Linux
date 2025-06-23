@@ -167,11 +167,13 @@ sudo systemctl disable network
 ### Manage Local Users and Groups  
   
 * Switch Users and sudo Access
+
 ```
   • su – username
   • sudo command
   • visudo
 ```
+
 * File
 
   • `/etc/sudoers` 
@@ -179,49 +181,64 @@ sudo systemctl disable network
 ### Control Access to Files
 
 * There are 3 type of permissions
+
 ```  
   • r - read
   • w - write
   • x - exeawke = running a program
 ``` 
+
 • Each permission (rwx) can be controlled at three levels:
+
 ```  
   • u - user = yourself
   • g - group = can be people in the same project
   • o - other = everyone on the system
 ```  
+
 • File or Directory permission can be displayed by running `ls –l command`
+
 ```  
-  • -rwxrwxrwx
+-rwxrwxrwx
 ```
 ### Maintaining Accurate Time
 
-
 • Command to show system `time/date`
 
-	* date
+```
+date
+```
 
 • Command for `time/date` and NTP setting
-
-	* timedatectl
+```
+timedatectl
+```
 
 • To get help
 
-	* timedatectl --help
+```
+timedatectl --help
+```
 
 • To view list of time zones
 
-	* timedatectl list-timezones
+```
+timedatectl list-timezones
+```
 
 • To set a time zone
 
-	* timedatectl set-timezone America/New_York
+```
+timedatectl set-timezone America/New_York
+```
 
 • To set time or to set time and date
 
-	* timedatectl set-time HH:MM:SS
+```
+	timedatectl set-time HH:MM:SS
 
-	* timedatectl set-time ‘2021-08-18 20:15:50`
+	timedatectl set-time '2021-08-18 20:15:50
+```
 
 * To enable NTP synchronization
 
@@ -313,7 +330,6 @@ There is a policy rule that permits Apache (the web server process running with 
 
 So, if Apache webserver gets compromised, Access to other system resources will not be possible .Access will be restricted to only web server directories .
 
-<img src="/img/selinux-intro-apache-mariadb.png">
 
 To list SELinux Context ,execute:
 
