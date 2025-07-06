@@ -1,5 +1,6 @@
 ## Logical Volume Management
 
+```
 PV – Physical Volume
 VG – Volume Group
 LV – Logical Volume
@@ -36,5 +37,5 @@ lvscan – shows logical volumes
 lvdisplay – shows details on logical volumes
 lvextend -l +100%FREE /dev/vg1/lv1– One of the most common commands used to extend logical volume lv1 that takes up ALL of the remaining free space on the volume group vg1.
 resize2fs /dev/vg1/lv1 – resize the file system to the size of the logical volume lv1.
-
+```
 
